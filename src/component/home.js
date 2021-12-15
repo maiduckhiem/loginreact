@@ -2,29 +2,20 @@ import React from 'react';
 import { useNavigate } from 'react-router';
 import { isAuthenticate } from './authenticate';
 
-const Home = ({ user }) => {
+const Home = ({ user ,product }) => {
     const auth = isAuthenticate();
     console.log(auth)
     const perpage = 1;
     const start = 0;
     const end = perpage;
     const navigate = useNavigate()
-    const onesubmit = () => {
         const signout = () => {
-            localStorage.clear()
+            localStorage.clear(auth)
             navigate("/signin")
-
         }
-        if (auth) {
-            return (<div><button onClick={signout}>dang xuat</button></div>)
-        } else {
-            return (<div>adjfbaj</div>)
-        }
-
-    }
     return (
         <div>
-            {onesubmit()}
+            <button onClick={signout}>dang xuat</button>
             home
             {user.map((item, index) => {
                 if (index >= start && index < end) {
@@ -33,6 +24,7 @@ const Home = ({ user }) => {
                     </div>
                 }
             })}
+
         </div>
     );
 }

@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link, NavLink, Outlet } from 'react-router-dom';
+import Productadmin from '../component/productadmin';
 
 const Layoutadmin = () => {
     return (
         <div>
             <div>
-                hjahdfjhajdfhj
                 <Outlet />
             </div>
         </div>

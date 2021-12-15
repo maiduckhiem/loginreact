@@ -13,7 +13,7 @@ const Signin = () => {
             authenticate(response.data.user)
             console.log(response.data.user)
             if(response.data.user.id === 1){
-                navigate("/admin/login")
+                navigate("/admin/product")
             }else{
                 navigate("/")
             }

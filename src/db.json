@@ -2,16 +2,32 @@
   "users": [
     {
       "email": "duckhiem110@gmail.com",
-      "password": "$2a$10$h9UKBHvLPyaDtzhIHmYjV.7Xz4gwfUlSV3qOIX6sJvjSJkt5ZbY/S",
+      "password": "$2a$10$qZeOBwMFvbeY.3buUs26YuqTOTstz1zzGdBY30.8nbV1aina1B/YS",
       "middleName": "3123",
       "name": "Unbranded Concrete Car",
       "id": 1
     },
     {
       "email": "17092000linh@gmail.com",
-      "password": "$2a$10$V/4AzsslMF1yvFhMwn8xvefbchPAhn97tz0LZmh.MWdUgcF4IUMEO",
+      "password": "$2a$10$vBOQzfkSzNPzcb/wIdaY5OKBS49u2CKMjp919L.SHmxfHxwIc4OCq",
       "middleName": "3123",
       "name": "Unbranded Concrete Car",
+      "id": 2
+    }
+  ],
+  "product": [
+    {
+      "name": "Unbranded Concrete Car",
+      "price": "63",
+      "image": "201997923_537785304267683_1375596666662079453_n.jpg",
+      "textarea": "12314",
+      "id": 1
+    },
+    {
+      "name": "Unbranded Concrete Car",
+      "price": "63",
+      "image": "201997923_537785304267683_1375596666662079453_n.jpg",
+      "textarea": "12314",
       "id": 2
     }
   ]
